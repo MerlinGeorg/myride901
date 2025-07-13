@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1032011912151-32kclfbqev3c427raouvebhensqqomp2.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1032011912151-32kclfbqev3c427raouvebhensqqomp2</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>1032011912151-0bmveg3dog41h4ig6tpkslp1aau9rger.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCxNATWiQR2mPYizyEE8bvAsNco_YR0b5o</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1032011912151</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.myride901.dev</string>
+	<key>PROJECT_ID</key>
+	<string>myride901-4e719</string>
+	<key>STORAGE_BUCKET</key>
+	<string>myride901-4e719.firebasestorage.app</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<true></true>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1032011912151:ios:f7163cd391a85e7956b192</string>
+	<key>DATABASE_URL</key>
+	<string>https://myride901-4e719.firebaseio.com</string>
+</dict>
+</plist>

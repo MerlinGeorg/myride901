@@ -1,0 +1,34 @@
+package com.myride901
+
+import io.flutter.embedding.android.FlutterActivity
+
+class MainActivity: FlutterActivity() {
+}
+
+// package com.myride901;
+
+// import io.flutter.embedding.android.FlutterActivity;
+// import io.flutter.embedding.engine.FlutterEngine;
+// import com.google.android.gms.ads.MobileAds;
+// import androidx.annotation.NonNull;
+// import io.flutter.plugins.googlemobileads.GoogleMobileAdsPlugin;
+
+// class MainActivity : FlutterActivity() {
+//     override fun configureFlutterEngine(flutterEngine: FlutterEngine) {
+//         super.configureFlutterEngine(flutterEngine)
+
+//         // TODO: Register the ListTileNativeAdFactory
+//         GoogleMobileAdsPlugin.registerNativeAdFactory(flutterEngine, "listTile",
+//                 NativeAdFactorySmall(context))
+//         GoogleMobileAdsPlugin.registerNativeAdFactory(flutterEngine, "listTileMedium",
+//                 NativeAdFactoryMedium(context))
+//     }
+
+//     override fun cleanUpFlutterEngine(flutterEngine: FlutterEngine) {
+//         super.cleanUpFlutterEngine(flutterEngine)
+
+//         // TODO: Unregister the ListTileNativeAdFactory
+//         GoogleMobileAdsPlugin.unregisterNativeAdFactory(flutterEngine, "listTile")
+//         GoogleMobileAdsPlugin.unregisterNativeAdFactory(flutterEngine, "listTileMedium")
+//     }
+// }

@@ -1,0 +1,59 @@
+import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
+import 'package:myride901/core/themes/app_theme.dart';
+
+class WhiteButton extends StatelessWidget {
+  final Function()? onPress;
+  final String text;
+  final bool enable;
+  final bool hasIcon;
+  final Widget icon;
+
+  const WhiteButton({
+    Key? key,
+    this.onPress,
+    this.text = "Button",
+    this.enable = true,
+    this.hasIcon = false,
+    this.icon = const Offstage(),
+  }) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    AppThemeState _appTheme = AppThemeState();
+    return InkWell(
+      onTap: () {
+        if (enable) onPress?.call();
+      },
+      child: Container(
+          height: 40,
+          width: double.infinity,
+          decoration: BoxDecoration(
+            border: Border.all(color: _appTheme.primaryColor),
+            color:
+                enable ? Colors.white : _appTheme.primaryColor.withOpacity(0.3),
+            borderRadius: BorderRadius.circular(10),
+          ),
+          child: Center(
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                if (hasIcon) icon,
+                SizedBox(
+                  width: 10,
+                ),
+                Text(
+                  text,
+                  style: GoogleFonts.roboto(
+                      color:
+                          enable ? _appTheme.primaryColor : Color(0xffD0D0D0),
+                      fontWeight: FontWeight.w500,
+                      fontSize: 14,
+                      letterSpacing: 1),
+                )
+              ],
+            ),
+          )),
+    );
+  }
+}

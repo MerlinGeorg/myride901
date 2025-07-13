@@ -1,0 +1,107 @@
+{
+    "project_info": {
+      "project_number": "1032011912151",
+      "firebase_url": "https://myride901-4e719.firebaseio.com",
+      "project_id": "myride901-4e719",
+      "storage_bucket": "myride901-4e719.appspot.com"
+    },
+    "client": [
+      {
+        "client_info": {
+          "mobilesdk_app_id": "1:1032011912151:android:6a66ac9fc95c375f56b192",
+          "android_client_info": {
+            "package_name": "com.myride901"
+          }
+        },
+        "oauth_client": [
+          {
+            "client_id": "1032011912151-a21m39p8gteprc2b8jq6ibsp02ovq8ku.apps.googleusercontent.com",
+            "client_type": 1,
+            "android_info": {
+              "package_name": "com.myride901",
+              "certificate_hash": "7041a7b5e6c3fe3b82a4d22f38fb707fd0c8c05a"
+            }
+          },
+          {
+            "client_id": "1032011912151-srnhjiv2ko9o97m88h0if6dc1fk9vafa.apps.googleusercontent.com",
+            "client_type": 1,
+            "android_info": {
+              "package_name": "com.myride901",
+              "certificate_hash": "8874abf9a0ac2bdea0ef1b739bbed6d7f3d5d8ac"
+            }
+          },
+          {
+            "client_id": "1032011912151-arqbigc2cdbh5fjvukunlgsc2bj3nkla.apps.googleusercontent.com",
+            "client_type": 3
+          }
+        ],
+        "api_key": [
+          {
+            "current_key": "AIzaSyDu2pL0lieE67kHx6DlvdlcsbV4HYhTz7Y"
+          }
+        ],
+        "services": {
+          "appinvite_service": {
+            "other_platform_oauth_client": [
+              {
+                "client_id": "1032011912151-arqbigc2cdbh5fjvukunlgsc2bj3nkla.apps.googleusercontent.com",
+                "client_type": 3
+              },
+              {
+                "client_id": "1032011912151-t45bv4uere3squ9nsh94f0koq0dgmu5a.apps.googleusercontent.com",
+                "client_type": 2,
+                "ios_info": {
+                  "bundle_id": "com.myride901"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "client_info": {
+          "mobilesdk_app_id": "1:1032011912151:android:abeb4a4d9493c33456b192",
+          "android_client_info": {
+            "package_name": "com.myride901.dev"
+          }
+        },
+        "oauth_client": [
+          {
+            "client_id": "1032011912151-0upa4alu85chrdj0050brumi2v5336e0.apps.googleusercontent.com",
+            "client_type": 1,
+            "android_info": {
+              "package_name": "com.myride901.dev",
+              "certificate_hash": "8874abf9a0ac2bdea0ef1b739bbed6d7f3d5d8ac"
+            }
+          },
+          {
+            "client_id": "1032011912151-arqbigc2cdbh5fjvukunlgsc2bj3nkla.apps.googleusercontent.com",
+            "client_type": 3
+          }
+        ],
+        "api_key": [
+          {
+            "current_key": "AIzaSyDu2pL0lieE67kHx6DlvdlcsbV4HYhTz7Y"
+          }
+        ],
+        "services": {
+          "appinvite_service": {
+            "other_platform_oauth_client": [
+              {
+                "client_id": "1032011912151-arqbigc2cdbh5fjvukunlgsc2bj3nkla.apps.googleusercontent.com",
+                "client_type": 3
+              },
+              {
+                "client_id": "1032011912151-t45bv4uere3squ9nsh94f0koq0dgmu5a.apps.googleusercontent.com",
+                "client_type": 2,
+                "ios_info": {
+                  "bundle_id": "com.myride901"
+                }
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "configuration_version": "1"
+  }
